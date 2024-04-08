@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.tarjeta img {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Clase 11</title>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+
+  <form bg="yellow" id="form_hogwarts">
+    <h1>Inscripción a Hogwarts</h1>
+    <label>
+      Nombre completo:
+      <input type="text" name="nombre" id="nombre" autocomplete="off" minlength="5" required>
+    </label>
+    <label>
+      contraseña:
+      <input type="password" name="pass" id="pass" minlength="6" required>
+    </label>
+    <label>
+      Telefono:
+      <input type="text" name="tel" id="tel" pattern="[0-9]{3}" required>
+    </label>
+
+    <fieldset>
+      <legend>Hobbies: (No mas de 4)</legend>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesNetflix" value="Netflix">
+        Netflix
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesFutbol" value="Futbol">
+        Futbol
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesTenis" value="Tenis">
+        Tenis
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesGym" value="Gym">
+        Gym
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesVideoJuegos" value="Videojuegos">
+        VideoJuegos 
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesCocina" value="cocina">
+        Cocina
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesProgramación" value="Programacion">
+        Programación
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesDibujo" value="Dibujo">
+        Dibujo
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesPintura" value="Pintura">
+        Pintura
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesGuitarra" value="Guitarra">
+        Guitarra
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesTeclado" value="Teclado">
+        Teclado
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesTejer" value="Tejer">
+        Tejer
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="Lectura" value="Lectura">
+        Lectura
+      </label>
+      <label>
+        <input type="checkbox" name="hobbies" id="hobbiesEscritura" value="Escritura">
+        Escritura
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pais de nacimiento</legend>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadArgentina" value="Argentina">
+        Argentina
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadColombiana" value="Colombiana">
+        Colombia
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadBrazilera" value="Brazilera">
+        Brazil
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadChilena" value="Chilena">
+        Chile
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadVenezolana" value="Venezolana">
+        Venezuela
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadPerú" value="Peruana">
+        Perú
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadUruguay" value="Uruguaya">
+        Uruguay
+      </label>
+      <label>
+        <input type="radio" name="nacionalidad" id="nacionalidadParaguay" value="Paraguaya">
+        Paraguay
+      </label>
+    </fieldset>
+
+    <button>Inscribirme</button>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.noticia {
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticia img {
+    width: 50%;
+    height: 50%;
+}
+
+.nacional {
+    border: 2px solid red;
+}
+
